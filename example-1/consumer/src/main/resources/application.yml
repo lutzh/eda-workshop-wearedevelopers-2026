@@ -1,0 +1,26 @@
+spring:
+  application:
+    name: consumer-example-1
+  datasource:
+    url: jdbc:postgresql://localhost:5432/workshop
+    username: workshop
+    password: workshop
+  jpa:
+    hibernate:
+      ddl-auto: none
+    properties:
+      hibernate:
+        default_schema: consumer_schema
+  kafka:
+    bootstrap-servers: localhost:9092
+
+kafka:
+  topic:
+    operation-completed: operation-completed
+  consumer:
+    group-id: workshop-consumer
+
+logging:
+  level:
+    com.workshop: INFO
+    org.apache.kafka: WARN

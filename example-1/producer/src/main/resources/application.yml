@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: producer-example-1
+  kafka:
+    bootstrap-servers: localhost:9092
+
+kafka:
+  topic:
+    operation-completed: operation-completed
+
+logging:
+  level:
+    com.workshop: INFO
+    org.apache.kafka: WARN

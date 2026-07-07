@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+option java_package = "com.workshop.event";
+option java_outer_classname = "OperationCompletedProto";
+
+message OperationCompleted {
+  string message_id = 1;
+  string correlation_id = 2;
+  string info = 3;
+  string status = 4;
+  int64 timestamp = 5;
+}
