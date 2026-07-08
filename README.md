@@ -4,6 +4,9 @@ A hands-on workshop demonstrating key patterns in event-driven architecture usin
 
 _The repository will be made private again after the workshop, so make sure you don't delete your local clone!_
 
+This is free to use for personal use and for sharing with friends and colleagues, but not for publishing. Especially the photographs may be copyrighted and not free to use / publish.
+
+
 
 
 ## Overview
